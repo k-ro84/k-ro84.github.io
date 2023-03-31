@@ -1,0 +1,236 @@
+body{
+    background: linear-gradient(blue, pink)
+   /** para que el degrade sea en forma vertical background: linear-gradient(70deg, blue, pink)*/
+}
+
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ /**   animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite; 
+  }
+  .slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  } 
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    } */
+  }
+
+.hi{
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.card-header{
+    background-color: blueviolet;
+  }
+.card-body1{
+     background-color: rgb(161, 94, 224);
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+#volver{
+    background-color: blue;
+    align-content: center;
+}
+
+
+#botoncito,#botoncito2,#botoncito3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background-color:#d65e4e;
+    width:500px;
+    height:30px;
+    padding: 50px;
+}
+#doc{
+    font-family: 'Gloock', serif;
+    font-size:large;
+    color: darkred;
+}
+#desktop{
+    color: black;
+}
+
+
+#pres{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ver{
+    background-color: #f02daf;
+    margin:0 250px 0 250px;
+    border-radius: 10rem;
+}
+
+
+.container1{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+.progress{
+       height: 27px;
+}
+.skills{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+
+
+@media (min-width: 500px) {
+    /* clearfix*/
+    .media:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .media {
+        display: grid;
+        grid-template-columns: fit-content(200px) 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas:
+        "image content"
+        "image footer";
+        grid-gap: 20px;
+        margin-bottom: 4em;
+    }
+    
+    .media-flip {
+        grid-template-columns: 1fr fit-content(200px);
+        grid-template-areas:
+        "content image"
+        "footer image";
+    }
+    
+    .img {
+        float: left;
+        margin-right: 20px;
+        max-width: 200px;
+        grid-area: image;
+    }
+    
+    .media-flip .img {
+        float: right;
+        margin: 0 0 0 20px;
+    }
+    
+    .content { grid-area: content;}
+    
+    .footer { grid-area: footer; }
+    
+    @supports(display: grid) {
+        .media:after {
+        content: none;
+        }   
+        .img,
+        .media-flip .img{
+        max-width: 100%;
+        margin: 0; 
+      }
+    } 
+}
+
+
+.exper{
+    margin-top: 30px;
+}
+#exp,#exp2,#exp3{
+  text-align: center,start;
+  color: rgb(133, 39, 86);
+}
+.proyectos{
+    border-radius: 50em;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px;
+}
+
+
+#card1{
+  align-content: center;
+  border-color: black;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+
+.form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+#sending {
+    opacity: 0;
+  }
+
+
+
+#hr{
+    align-items:end;
+    text-align: right;
+}
+#myBtn{
+    color: rgb(145, 10, 5);
+    text-align: justify;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+.print{
+background-color: darkslategray;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 20px;
+height: 35px;
+}
+
+
+footer {
+    position:absolute;
+    height:50px;
+    line-height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    left:0;
+    width:100%;
+  }
+  
+
+/** index nummero 2:
+encuesta.html*/
+  #switchDay{
+    text-align: center;
+    font-size: 3rem;
+  }
